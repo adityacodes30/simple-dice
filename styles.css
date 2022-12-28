@@ -1,0 +1,97 @@
+body
+{
+    background-image: url(layered-waves-haikei\ copy.svg);
+   
+}
+
+.navbar
+{
+    padding: 1% 20%;
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    
+    
+}
+.navbar-brand
+{
+    font-size: 1.8rem;
+}
+
+.nav-item
+{
+color: aliceblue;
+font-size: 1.2rem;
+}
+
+.dice-box
+{
+    height: 30%;
+    aspect-ratio: 1 ;
+   
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgba(240, 255, 255, 0.4);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    padding: 1%;
+    
+   
+}
+
+.btn
+{
+    border: 10px;
+    border-color: beige;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Orbitron', sans-serif;
+    color: azure;
+    font-weight: 900;
+    border-radius: 2px;
+    
+    
+}
+
+.d-grid
+{
+   position: absolute;
+   top:75%;
+   left: 50%;
+   transform: translateX(-50%);
+
+}
+
+.diceboxin
+{
+    width: 100%;
+    padding: 3px;
+    border: 3px;
+    /* background-color: yellowgreen; */
+    align-items: center;
+    transform: translateY(3%);
+      
+}
+
+.col
+{
+padding: 10%;
+display: grid;
+justify-content: center;
+align-items: center;
+
+}
+
+.fa-solid 
+{
+    color: white;
+    opacity: 1;
+}
+
+.hide
+{
+    opacity: 0;
+}
+
+
+

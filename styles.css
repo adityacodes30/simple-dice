@@ -93,5 +93,13 @@ align-items: center;
     opacity: 0;
 }
 
+.namern
+{
+    position: absolute;
+   top:96%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
 
 
